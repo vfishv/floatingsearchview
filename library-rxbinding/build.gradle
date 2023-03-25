@@ -2,19 +2,19 @@ apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
 
 android {
-    compileSdkVersion 30
+    compileSdkVersion 33
     //buildToolsVersion '30.0.3'
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 29
+        targetSdkVersion 33
         versionCode 11
         versionName "2.0.4"
     }
 }
 
 dependencies {
-    implementation 'androidx.annotation:annotation:1.2.0'
+    implementation 'androidx.annotation:annotation:1.6.0'
     implementation 'com.jakewharton.rxbinding2:rxbinding:2.2.0'
     implementation project(path: ':library')
 }
