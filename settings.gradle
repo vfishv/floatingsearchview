@@ -1,1 +1,4 @@
-include ':sample', ':library', ':library-rxbinding', ':library-rxbinding-kotlin'
+include ':library'
+//include ':library-rxbinding'
+//include ':library-rxbinding-kotlin'
+include ':sample'
