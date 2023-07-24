@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
     //buildToolsVersion '30.0.3'
 
     defaultConfig {
@@ -24,7 +24,7 @@ dependencies {
     implementation project(":library")
     implementation files('libs/gson-2.4.jar')
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation "com.google.android.material:material:1.8.0"
+    implementation "com.google.android.material:material:1.9.0"
     implementation "androidx.palette:palette-ktx:1.0.0"
     implementation 'androidx.palette:palette:1.0.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
